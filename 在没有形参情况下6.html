@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function change(){
+        alert(typeof fn)
+        function fn(){
+            alert('hello')
+        }
+        var fn
+    }
+    change()
+</script>
+弹出 function
+</body>
+</html>
